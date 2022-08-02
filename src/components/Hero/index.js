@@ -11,6 +11,7 @@ import {
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // eslint-disable-next-line no-unused-vars
   const toggle = () => {
     setIsOpen(!isOpen);
   };
